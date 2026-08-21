@@ -18,8 +18,8 @@ Independent research and engineering work in AI systems, deterministic version i
 | Project | Research focus | Current status |
 |---|---|---|
 | [SRX — Semantic Reconstructive eXchange](projects/srx/README.md) | Exact reconstruction, temporal version intelligence, and verified historical evidence | **Public v0.1.0 experimental release** |
-| [Grokking Lab](projects/grokking-lab/README.md) | Real PyTorch experiments, phase transitions, SVD/FFT analysis | Experimental prototype |
-| [SEACS](projects/seacs/README.md) | Closed-loop stability and cascade-risk control | Architecture and prototype |
+| [Grokking Lab](projects/grokking-lab/README.md) | Real PyTorch delayed-generalization experiments and mechanistic analysis | **Controlled grokking checkpoint confirmed** |
+| [SEACS](projects/seacs/README.md) | Closed-loop stability and cascade-risk control | **Closed-loop R&D prototype** |
 | [Human Clarity AI](projects/human-clarity-ai/README.md) | Preventing cognitive over-delegation to AI | Research concept |
 | [BASIS](projects/basis/README.md) | Multi-model verification and structured disagreement | Architecture and prototype |
 | [AI Clean Layer](projects/ai-clean-layer/README.md) | Validated external knowledge and memory layers | Architecture prototype |
