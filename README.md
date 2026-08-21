@@ -21,8 +21,8 @@ Independent research and engineering work in AI systems, deterministic version i
 | [Grokking Lab](projects/grokking-lab/README.md) | Real PyTorch delayed-generalization experiments and mechanistic analysis | **Controlled grokking checkpoint confirmed** |
 | [SEACS](projects/seacs/README.md) | Closed-loop stability and cascade-risk control | **Closed-loop R&D prototype** |
 | [Human Clarity AI](projects/human-clarity-ai/README.md) | Preventing cognitive over-delegation to AI | Research concept |
-| [BASIS](projects/basis/README.md) | Multi-model verification and structured disagreement | Architecture and prototype |
-| [AI Clean Layer](projects/ai-clean-layer/README.md) | Validated external knowledge and memory layers | Architecture prototype |
+| [BASIS](projects/basis/README.md) | Verified multi-model arbitration, evidence tracking, and structured disagreement | **Verification / arbitration prototype** |
+| [AI Clean Layer](projects/ai-clean-layer/README.md) | Validated memory boundary, provenance, and gated retrieval | **Validated-memory architecture prototype** |
 
 ## Public project highlight
 
