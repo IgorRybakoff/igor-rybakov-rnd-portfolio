@@ -19,7 +19,7 @@ Independent research and engineering work in AI systems, deterministic version i
 |---|---|---|
 | [SRX — Semantic Reconstructive eXchange](projects/srx/README.md) | Exact reconstruction, temporal version intelligence, and verified historical evidence | **Public v0.1.0 experimental release** |
 | [Grokking Lab](projects/grokking-lab/README.md) | Real PyTorch delayed-generalization experiments and mechanistic analysis | **Public v0.1.0 experimental release** |
-| [SEACS](projects/seacs/README.md) | Closed-loop stability and cascade-risk control | **Closed-loop R&D prototype** |
+| [SEACS](projects/seacs/README.md) · [public repository](https://github.com/IgorRybakoff/seacs-lab) | Deterministic trust-gated control decisions under synthetic microservice failures | **Public reference v0.1 experimental release** |
 | [Human Clarity AI](projects/human-clarity-ai/README.md) | Preventing cognitive over-delegation to AI | Research concept |
 | [BASIS](projects/basis/README.md) | Verified multi-model arbitration, evidence tracking, and structured disagreement | **Verification / arbitration prototype** |
 | [AI Clean Layer](projects/ai-clean-layer/README.md) | Validated memory boundary, provenance, and gated retrieval | **Validated-memory architecture prototype** |
@@ -43,6 +43,14 @@ SRX is a standalone open-source experimental release with reproducible benchmark
 Grokking Lab publishes executable training code, deterministic smoke tests, automated CI, and a frozen 40,000-step modular-addition experiment with checksums and replayable checkpoints. The release separates measured evidence from interpretation and documents the limits of a single controlled run.
 
 [Open the Grokking Lab repository →](https://github.com/IgorRybakoff/grokking-lab)
+
+### SEACS Lab
+
+**Deterministic reference simulator for bounded autonomous-control decisions.**
+
+SEACS Lab publishes a runnable TypeScript reference implementation, deterministic tests, exact artifact replay, checksums, automated CI, and explicit evidence semantics. The public package uses deliberately simplified illustrative policies and excludes unpublished algorithms, operational thresholds, production heuristics, infrastructure details, and patent-sensitive know-how.
+
+[Open the SEACS Lab repository →](https://github.com/IgorRybakoff/seacs-lab)
 
 ## Core principle
 
