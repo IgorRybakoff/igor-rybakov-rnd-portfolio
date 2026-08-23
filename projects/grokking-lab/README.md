@@ -1,37 +1,44 @@
 # Grokking Lab
 
-Research environment for studying delayed generalization, phase transitions, and mechanistic changes in small neural networks.
+> This page is the stable portfolio entry point. The complete public v0.1.0 package now lives in the standalone repository.
 
-## Research principle
+[Open the Grokking Lab repository →](https://github.com/IgorRybakoff/grokking-lab)
 
-Measured evidence is separated from interpretation:
+## Research question
 
-1. a Python/PyTorch training core runs the experiment;
-2. deterministic logging records losses, accuracies, norms, thresholds, and checkpoints;
-3. mechanistic analysis can examine SVD, FFT, cosine similarity, norms, and related signals;
-4. an LLM may interpret measured results but may not create experimental metrics;
-5. claims are checked against recorded artifacts and replayable checkpoints.
+Can a compact Transformer first memorize a modular-addition training subset and only much later generalize to held-out examples?
 
-## Current implementation
+## Public experimental release
 
-- task family: modular arithmetic, including `(a + b) mod p`;
-- model family: compact transformer-style architectures;
-- optimizer and training parameters are explicit and reproducible;
-- provenance controls distinguish real PyTorch execution from simulated or generated metrics;
-- checkpoint replay and frozen experiment artifacts are used to verify reported outcomes.
+The standalone repository provides:
+
+- executable PyTorch training code for `(a + b) mod 113`;
+- a deterministic smoke test suitable for CI;
+- tests for configuration, data splitting, model behavior, artifact integrity, and checkpoint replay;
+- a frozen 40,000-step experimental record with checksums and five replayable checkpoints;
+- the measured training curve, event-detection output, diagnostics, and experiment report;
+- explicit reproducibility guidance and known limitations.
 
 ## Measured checkpoint
 
-A controlled long run on modular addition with `p=113` and a compact one-layer transformer reached:
+| Field | Recorded value |
+|---|---:|
+| Model | Compact 1-layer Transformer |
+| Seed | 42 |
+| Training split | 0.3 |
+| Training steps | 40,000 |
+| Memorization | approximately step 200 |
+| Delayed-generalization candidate | approximately step 25,600 |
+| Stable plateau | approximately step 26,500 |
+| Final train accuracy | 1.0000 |
+| Final validation accuracy | 1.0000 |
 
-- training accuracy: **1.0000**;
-- validation accuracy: **1.0000**;
-- delayed generalization onset around **25.6k training steps**;
-- stable high validation performance after the transition;
-- final exact experiment artifacts preserved for replay and audit.
+This is one controlled experimental checkpoint. It is not evidence that grokking occurs for every seed, model, optimizer, or task.
 
-This is a reproducible experimental checkpoint, not a claim that grokking is universal across architectures, seeds, or datasets.
+## Research principle
 
-## Current status
+**LLM never creates metrics; LLM only interprets measured evidence.**
 
-Experimental R&D prototype with confirmed delayed-generalization behavior in a controlled PyTorch run. Ongoing work focuses on stronger multi-seed replication, mechanistic analysis around the transition, and cleaner public packaging of reproducible artifacts.
+The long run is published as frozen evidence. CI verifies the public code, deterministic setup, smoke training, checksums, and checkpoint replay; it does not pretend to reproduce the full 40,000-step run.
+
+[Inspect the code, CI, evidence, and limitations →](https://github.com/IgorRybakoff/grokking-lab)
