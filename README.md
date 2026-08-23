@@ -18,23 +18,31 @@ Independent research and engineering work in AI systems, deterministic version i
 | Project | Research focus | Current status |
 |---|---|---|
 | [SRX — Semantic Reconstructive eXchange](projects/srx/README.md) | Exact reconstruction, temporal version intelligence, and verified historical evidence | **Public v0.1.0 experimental release** |
-| [Grokking Lab](projects/grokking-lab/README.md) | Real PyTorch delayed-generalization experiments and mechanistic analysis | **Controlled grokking checkpoint confirmed** |
+| [Grokking Lab](projects/grokking-lab/README.md) | Real PyTorch delayed-generalization experiments and mechanistic analysis | **Public v0.1.0 experimental release** |
 | [SEACS](projects/seacs/README.md) | Closed-loop stability and cascade-risk control | **Closed-loop R&D prototype** |
 | [Human Clarity AI](projects/human-clarity-ai/README.md) | Preventing cognitive over-delegation to AI | Research concept |
 | [BASIS](projects/basis/README.md) | Verified multi-model arbitration, evidence tracking, and structured disagreement | **Verification / arbitration prototype** |
 | [AI Clean Layer](projects/ai-clean-layer/README.md) | Validated memory boundary, provenance, and gated retrieval | **Validated-memory architecture prototype** |
 
-## Public project highlight
+## Public project highlights
 
 ### SRX
 
 **Exact reconstruction and version intelligence for evolving structured data.**
 
-SRX is the first project in this portfolio published as a standalone open-source experimental release with reproducible benchmarks, explicit integrity checks, documented limitations, and automated CI.
+SRX is a standalone open-source experimental release with reproducible benchmarks, explicit integrity checks, documented limitations, and automated CI.
 
 > **Ask the history. Prove the answer.**
 
 [Open the SRX repository →](https://github.com/IgorRybakoff/srx)
+
+### Grokking Lab
+
+**Measured delayed generalization in a compact PyTorch Transformer.**
+
+Grokking Lab publishes executable training code, deterministic smoke tests, automated CI, and a frozen 40,000-step modular-addition experiment with checksums and replayable checkpoints. The release separates measured evidence from interpretation and documents the limits of a single controlled run.
+
+[Open the Grokking Lab repository →](https://github.com/IgorRybakoff/grokking-lab)
 
 ## Core principle
 
